@@ -1,0 +1,163 @@
+2021-12-03 03:05:22,333 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='61a8abf7fb3a7b148d6a9af8', description='null'}-cluster-shard-00-01.tyggj.mongodb.net:27017] Opened connection [connectionId{localValue:40, serverValue:34924}] to cluster-shard-00-01.tyggj.mongodb.net:27017
+2021-12-03 03:05:22,425 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='61a8abf7fb3a7b148d6a9af8', description='null'}-cluster-shard-00-02.tyggj.mongodb.net:27017] Opened connection [connectionId{localValue:41, serverValue:33309}] to cluster-shard-00-02.tyggj.mongodb.net:27017
+2021-12-03 03:05:22,338 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='61a8abf7fb3a7b148d6a9af8', description='null'}-cluster-shard-00-02.tyggj.mongodb.net:27017] Opened connection [connectionId{localValue:38, serverValue:33309}] to cluster-shard-00-02.tyggj.mongodb.net:27017
+2021-12-03 03:05:22,336 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='61a8abf7fb3a7b148d6a9af8', description='null'}-cluster-shard-00-00.tyggj.mongodb.net:27017] Opened connection [connectionId{localValue:39, serverValue:33620}] to cluster-shard-00-00.tyggj.mongodb.net:27017
+2021-12-03 03:05:22,429 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='61a8abf7fb3a7b148d6a9af8', description='null'}-cluster-shard-00-01.tyggj.mongodb.net:27017] Monitor thread successfully connected to server with description ServerDescription{address=cluster-shard-00-01.tyggj.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2415776100, setName='atlas-stubv0-shard-0', canonicalAddress=cluster-shard-00-01.tyggj.mongodb.net:27017, hosts=[cluster-shard-00-02.tyggj.mongodb.net:27017, cluster-shard-00-00.tyggj.mongodb.net:27017, cluster-shard-00-01.tyggj.mongodb.net:27017], passives=[], arbiters=[], primary='cluster-shard-00-01.tyggj.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff00000000000000c1, setVersion=6, topologyVersion=TopologyVersion{processId=61a7b5b7b2dca376bc3c43c7, counter=6}, lastWriteDate=Fri Dec 03 03:05:21 IST 2021, lastUpdateTimeNanos=45388021319000}
+2021-12-03 03:05:22,431 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='61a8abf7fb3a7b148d6a9af8', description='null'}-cluster-shard-00-02.tyggj.mongodb.net:27017] Monitor thread successfully connected to server with description ServerDescription{address=cluster-shard-00-02.tyggj.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2447588600, setName='atlas-stubv0-shard-0', canonicalAddress=cluster-shard-00-02.tyggj.mongodb.net:27017, hosts=[cluster-shard-00-02.tyggj.mongodb.net:27017, cluster-shard-00-00.tyggj.mongodb.net:27017, cluster-shard-00-01.tyggj.mongodb.net:27017], passives=[], arbiters=[], primary='cluster-shard-00-01.tyggj.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=6, topologyVersion=TopologyVersion{processId=61a7b6837c67ba41569035b6, counter=3}, lastWriteDate=Fri Dec 03 03:05:21 IST 2021, lastUpdateTimeNanos=45388027008300}
+2021-12-03 03:05:22,431 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='61a8abf7fb3a7b148d6a9af8', description='null'}-cluster-shard-00-00.tyggj.mongodb.net:27017] Monitor thread successfully connected to server with description ServerDescription{address=cluster-shard-00-00.tyggj.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2415565700, setName='atlas-stubv0-shard-0', canonicalAddress=cluster-shard-00-00.tyggj.mongodb.net:27017, hosts=[cluster-shard-00-02.tyggj.mongodb.net:27017, cluster-shard-00-00.tyggj.mongodb.net:27017, cluster-shard-00-01.tyggj.mongodb.net:27017], passives=[], arbiters=[], primary='cluster-shard-00-01.tyggj.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=6, topologyVersion=TopologyVersion{processId=61a7b4b4dde21ee89dcf8c64, counter=4}, lastWriteDate=Fri Dec 03 03:05:21 IST 2021, lastUpdateTimeNanos=45388024334000}
+2021-12-03 03:05:22,431 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='61a8abf7fb3a7b148d6a9af8', description='null'}-cluster-shard-00-01.tyggj.mongodb.net:27017] Discovered replica set primary cluster-shard-00-01.tyggj.mongodb.net:27017
+2021-12-03 03:05:22,455 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='61a8abf7fb3a7b148d6a9af8', description='null'}-cluster-shard-00-00.tyggj.mongodb.net:27017] Opened connection [connectionId{localValue:42, serverValue:33620}] to cluster-shard-00-00.tyggj.mongodb.net:27017
+2021-12-03 03:05:22,461 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='61a8abf7fb3a7b148d6a9af8', description='null'}-cluster-shard-00-01.tyggj.mongodb.net:27017] Opened connection [connectionId{localValue:43, serverValue:35020}] to cluster-shard-00-01.tyggj.mongodb.net:27017
+2021-12-03 09:41:53,717 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='61a8abf7fb3a7b148d6a9af8', description='null'}-cluster-shard-00-01.tyggj.mongodb.net:27017] Exception in monitor thread while connecting to server cluster-shard-00-01.tyggj.mongodb.net:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:636)
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:515)
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:355)
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:315)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:215)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.SocketException: Socket is closed
+	at java.base/java.net.Socket.setSoTimeout(Socket.java:1218)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.setSoTimeout(BaseSSLSocketImpl.java:638)
+	at java.base/sun.security.ssl.SSLSocketImpl.setSoTimeout(SSLSocketImpl.java:74)
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:133)
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:647)
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:512)
+	... 5 common frames omitted
+2021-12-03 09:41:53,717 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='61a8abf7fb3a7b148d6a9af8', description='null'}-cluster-shard-00-00.tyggj.mongodb.net:27017] Exception in monitor thread while connecting to server cluster-shard-00-00.tyggj.mongodb.net:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:636)
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:515)
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:355)
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:315)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:215)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.SocketException: Socket is closed
+	at java.base/java.net.Socket.setSoTimeout(Socket.java:1218)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.setSoTimeout(BaseSSLSocketImpl.java:638)
+	at java.base/sun.security.ssl.SSLSocketImpl.setSoTimeout(SSLSocketImpl.java:74)
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:133)
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:647)
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:512)
+	... 5 common frames omitted
+2021-12-03 09:41:53,717 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='61a8abf7fb3a7b148d6a9af8', description='null'}-cluster-shard-00-02.tyggj.mongodb.net:27017] Exception in monitor thread while connecting to server cluster-shard-00-02.tyggj.mongodb.net:27017
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:636)
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:515)
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:355)
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:315)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:215)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.SocketException: Socket is closed
+	at java.base/java.net.Socket.setSoTimeout(Socket.java:1218)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.setSoTimeout(BaseSSLSocketImpl.java:638)
+	at java.base/sun.security.ssl.SSLSocketImpl.setSoTimeout(SSLSocketImpl.java:74)
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:133)
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:647)
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:512)
+	... 5 common frames omitted
+2021-12-03 09:41:53,718 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='61a8abf7fb3a7b148d6a9af8', description='null'}-cluster-shard-00-02.tyggj.mongodb.net:27017] Exception in monitor thread while connecting to server cluster-shard-00-02.tyggj.mongodb.net:27017
+com.mongodb.MongoSocketException: No such host is known (cluster-shard-00-02.tyggj.mongodb.net)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:143)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.UnknownHostException: No such host is known (cluster-shard-00-02.tyggj.mongodb.net)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1519)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203)
+	... 6 common frames omitted
+2021-12-03 09:41:53,718 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='61a8abf7fb3a7b148d6a9af8', description='null'}-cluster-shard-00-01.tyggj.mongodb.net:27017] Exception in monitor thread while connecting to server cluster-shard-00-01.tyggj.mongodb.net:27017
+com.mongodb.MongoSocketException: No such host is known (cluster-shard-00-01.tyggj.mongodb.net)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:143)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.UnknownHostException: No such host is known (cluster-shard-00-01.tyggj.mongodb.net)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1519)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203)
+	... 6 common frames omitted
+2021-12-03 09:41:53,734 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='61a8abf7fb3a7b148d6a9af8', description='null'}-cluster-shard-00-00.tyggj.mongodb.net:27017] Exception in monitor thread while connecting to server cluster-shard-00-00.tyggj.mongodb.net:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:143)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:107)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 4 common frames omitted
+2021-12-03 09:42:03,737 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='61a8abf7fb3a7b148d6a9af8', description='null'}-cluster-shard-00-00.tyggj.mongodb.net:27017] Exception in monitor thread while connecting to server cluster-shard-00-00.tyggj.mongodb.net:27017
+com.mongodb.MongoSocketException: cluster-shard-00-00.tyggj.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:143)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.UnknownHostException: cluster-shard-00-00.tyggj.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203)
+	... 6 common frames omitted
+2021-12-03 09:42:23,767 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='61a8abf7fb3a7b148d6a9af8', description='null'}-cluster-shard-00-00.tyggj.mongodb.net:27017] Exception in monitor thread while connecting to server cluster-shard-00-00.tyggj.mongodb.net:27017
+com.mongodb.MongoSocketException: No such host is known (cluster-shard-00-00.tyggj.mongodb.net)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:143)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.UnknownHostException: No such host is known (cluster-shard-00-00.tyggj.mongodb.net)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1519)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203)
+	... 6 common frames omitted
+2021-12-03 09:42:36,061 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='61a8abf7fb3a7b148d6a9af8', description='null'}-cluster-shard-00-01.tyggj.mongodb.net:27017] Opened connection [connectionId{localValue:68, serverValue:41506}] to cluster-shard-00-01.tyggj.mongodb.net:27017
+2021-12-03 09:42:36,061 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='61a8abf7fb3a7b148d6a9af8', description='null'}-cluster-shard-00-02.tyggj.mongodb.net:27017] Opened connection [connectionId{localValue:69, serverValue:39694}] to cluster-shard-00-02.tyggj.mongodb.net:27017
+2021-12-03 09:42:36,062 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='61a8abf7fb3a7b148d6a9af8', description='null'}-cluster-shard-00-01.tyggj.mongodb.net:27017] Monitor thread successfully connected to server with description ServerDescription{address=cluster-shard-00-01.tyggj.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=759517100, setName='atlas-stubv0-shard-0', canonicalAddress=cluster-shard-00-01.tyggj.mongodb.net:27017, hosts=[cluster-shard-00-02.tyggj.mongodb.net:27017, cluster-shard-00-00.tyggj.mongodb.net:27017, cluster-shard-00-01.tyggj.mongodb.net:27017], passives=[], arbiters=[], primary='cluster-shard-00-01.tyggj.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff00000000000000c1, setVersion=6, topologyVersion=TopologyVersion{processId=61a7b5b7b2dca376bc3c43c7, counter=6}, lastWriteDate=Fri Dec 03 09:42:34 IST 2021, lastUpdateTimeNanos=69228876814799}
+2021-12-03 09:42:36,062 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='61a8abf7fb3a7b148d6a9af8', description='null'}-cluster-shard-00-02.tyggj.mongodb.net:27017] Monitor thread successfully connected to server with description ServerDescription{address=cluster-shard-00-02.tyggj.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=777319900, setName='atlas-stubv0-shard-0', canonicalAddress=cluster-shard-00-02.tyggj.mongodb.net:27017, hosts=[cluster-shard-00-02.tyggj.mongodb.net:27017, cluster-shard-00-00.tyggj.mongodb.net:27017, cluster-shard-00-01.tyggj.mongodb.net:27017], passives=[], arbiters=[], primary='cluster-shard-00-01.tyggj.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=6, topologyVersion=TopologyVersion{processId=61a7b6837c67ba41569035b6, counter=3}, lastWriteDate=Fri Dec 03 09:42:34 IST 2021, lastUpdateTimeNanos=69228876809700}
+2021-12-03 09:42:36,062 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='61a8abf7fb3a7b148d6a9af8', description='null'}-cluster-shard-00-01.tyggj.mongodb.net:27017] Discovered replica set primary cluster-shard-00-01.tyggj.mongodb.net:27017
+2021-12-03 09:42:36,108 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='61a8abf7fb3a7b148d6a9af8', description='null'}-cluster-shard-00-00.tyggj.mongodb.net:27017] Opened connection [connectionId{localValue:70, serverValue:40039}] to cluster-shard-00-00.tyggj.mongodb.net:27017
+2021-12-03 09:42:36,108 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='61a8abf7fb3a7b148d6a9af8', description='null'}-cluster-shard-00-00.tyggj.mongodb.net:27017] Monitor thread successfully connected to server with description ServerDescription{address=cluster-shard-00-00.tyggj.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=823455301, setName='atlas-stubv0-shard-0', canonicalAddress=cluster-shard-00-00.tyggj.mongodb.net:27017, hosts=[cluster-shard-00-02.tyggj.mongodb.net:27017, cluster-shard-00-00.tyggj.mongodb.net:27017, cluster-shard-00-01.tyggj.mongodb.net:27017], passives=[], arbiters=[], primary='cluster-shard-00-01.tyggj.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=6, topologyVersion=TopologyVersion{processId=61a7b4b4dde21ee89dcf8c64, counter=4}, lastWriteDate=Fri Dec 03 09:42:34 IST 2021, lastUpdateTimeNanos=69228923150600}
+2021-12-03 09:42:39,372 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='61a8abf7fb3a7b148d6a9af8', description='null'}-cluster-shard-00-00.tyggj.mongodb.net:27017] Opened connection [connectionId{localValue:73, serverValue:40043}] to cluster-shard-00-00.tyggj.mongodb.net:27017
+2021-12-03 09:42:39,372 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='61a8abf7fb3a7b148d6a9af8', description='null'}-cluster-shard-00-02.tyggj.mongodb.net:27017] Opened connection [connectionId{localValue:71, serverValue:39682}] to cluster-shard-00-02.tyggj.mongodb.net:27017
+2021-12-03 09:42:39,372 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='61a8abf7fb3a7b148d6a9af8', description='null'}-cluster-shard-00-01.tyggj.mongodb.net:27017] Opened connection [connectionId{localValue:72, serverValue:41336}] to cluster-shard-00-01.tyggj.mongodb.net:27017

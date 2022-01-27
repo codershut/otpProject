@@ -1,0 +1,731 @@
+2021-11-16 11:26:31,196 INFO org.springframework.boot.StartupInfoLogger [main] Starting OtpProjectApplication using Java 17 on Varun-INT081 with PID 17540 (C:\Users\Varun_Sharma\eclipse-workspace\otp2\target\classes started by Varun_Sharma in C:\Users\Varun_Sharma\eclipse-workspace\otp2)
+2021-11-16 11:26:31,203 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-16 11:26:32,056 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 11:26:32,122 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interfaces.
+2021-11-16 11:26:32,742 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (https)
+2021-11-16 11:26:32,759 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 11:26:32,762 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-11-16 11:26:32,762 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-16 11:26:32,942 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-11-16 11:26:32,942 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1682 ms
+2021-11-16 11:26:33,133 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 11:26:33,192 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 11:26:33,326 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 11:26:33,424 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-16 11:26:33,579 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-16 11:26:33,608 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-11-16 11:26:34,108 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 11:26:34,115 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 11:26:34,597 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 11:26:34,934 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-16 11:26:35,018 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 11:26:35,023 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9090 is already in use
+2021-11-16 11:26:35,025 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 11:26:35,027 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2021-11-16 11:26:35,034 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2021-11-16 11:26:35,038 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 11:26:35,038 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2021-11-16 11:26:35,043 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 11:26:35,044 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 11:26:35,052 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-16 11:26:35,067 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9090 or configure this application to listen on another port.
+
+2021-11-16 11:26:47,917 INFO org.springframework.boot.StartupInfoLogger [main] Starting OtpProjectApplication using Java 17 on Varun-INT081 with PID 19884 (C:\Users\Varun_Sharma\eclipse-workspace\otp2\target\classes started by Varun_Sharma in C:\Users\Varun_Sharma\eclipse-workspace\otp2)
+2021-11-16 11:26:47,922 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-16 11:26:48,690 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 11:26:48,750 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interfaces.
+2021-11-16 11:26:49,377 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (https)
+2021-11-16 11:26:49,397 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 11:26:49,398 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-11-16 11:26:49,398 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-16 11:26:49,562 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-11-16 11:26:49,562 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1590 ms
+2021-11-16 11:26:49,743 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 11:26:49,803 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 11:26:49,939 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 11:26:50,031 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-16 11:26:50,181 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-16 11:26:50,210 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-11-16 11:26:50,789 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 11:26:50,795 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 11:26:51,251 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 11:26:51,604 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-16 11:26:51,685 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 11:26:51,906 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (https) with context path ''
+2021-11-16 11:26:51,912 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-11-16 11:26:51,926 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-11-16 11:26:51,933 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-11-16 11:26:51,993 INFO org.springframework.boot.StartupInfoLogger [main] Started OtpProjectApplication in 4.44 seconds (JVM running for 5.088)
+2021-11-16 11:27:36,692 INFO org.apache.juli.logging.DirectJDKLog [https-jsse-nio-9090-exec-9] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-16 11:27:36,693 INFO org.springframework.web.servlet.FrameworkServlet [https-jsse-nio-9090-exec-9] Initializing Servlet 'dispatcherServlet'
+2021-11-16 11:27:36,694 INFO org.springframework.web.servlet.FrameworkServlet [https-jsse-nio-9090-exec-9] Completed initialization in 1 ms
+2021-11-16 11:31:09,881 INFO org.springframework.boot.StartupInfoLogger [main] Starting OtpProjectApplication using Java 17 on Varun-INT081 with PID 5440 (C:\Users\Varun_Sharma\eclipse-workspace\otp2\target\classes started by Varun_Sharma in C:\Users\Varun_Sharma\eclipse-workspace\otp2)
+2021-11-16 11:31:09,884 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-16 11:31:10,661 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 11:31:10,731 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interfaces.
+2021-11-16 11:31:11,335 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (https)
+2021-11-16 11:31:11,347 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 11:31:11,348 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-11-16 11:31:11,348 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-16 11:31:11,518 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-11-16 11:31:11,518 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1583 ms
+2021-11-16 11:31:11,733 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 11:31:11,798 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 11:31:11,964 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 11:31:12,068 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-16 11:31:12,221 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-16 11:31:12,254 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-11-16 11:31:12,771 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 11:31:12,777 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 11:31:13,235 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 11:31:13,566 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-16 11:31:13,646 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 11:31:13,863 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (https) with context path ''
+2021-11-16 11:31:13,869 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-11-16 11:31:13,882 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-11-16 11:31:13,889 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-11-16 11:31:13,962 INFO org.springframework.boot.StartupInfoLogger [main] Started OtpProjectApplication in 4.468 seconds (JVM running for 5.088)
+2021-11-16 11:31:43,112 INFO org.apache.juli.logging.DirectJDKLog [https-jsse-nio-9090-exec-9] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-16 11:31:43,113 INFO org.springframework.web.servlet.FrameworkServlet [https-jsse-nio-9090-exec-9] Initializing Servlet 'dispatcherServlet'
+2021-11-16 11:31:43,116 INFO org.springframework.web.servlet.FrameworkServlet [https-jsse-nio-9090-exec-9] Completed initialization in 2 ms
+2021-11-16 11:36:01,369 INFO org.springframework.boot.StartupInfoLogger [main] Starting OtpProjectApplication using Java 17 on Varun-INT081 with PID 19344 (C:\Users\Varun_Sharma\eclipse-workspace\otp2\target\classes started by Varun_Sharma in C:\Users\Varun_Sharma\eclipse-workspace\otp2)
+2021-11-16 11:36:01,372 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-16 11:36:02,145 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 11:36:02,205 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2021-11-16 11:36:02,824 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (https)
+2021-11-16 11:36:02,836 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 11:36:02,836 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-11-16 11:36:02,837 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-16 11:36:02,989 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-11-16 11:36:02,990 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1565 ms
+2021-11-16 11:36:03,170 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 11:36:03,226 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 11:36:03,359 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 11:36:03,443 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-16 11:36:03,589 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-16 11:36:03,615 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-11-16 11:36:04,067 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 11:36:04,078 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 11:36:04,530 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 11:36:04,855 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-16 11:36:04,933 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 11:36:05,154 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (https) with context path ''
+2021-11-16 11:36:05,161 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-11-16 11:36:05,181 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-11-16 11:36:05,189 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-11-16 11:36:05,259 INFO org.springframework.boot.StartupInfoLogger [main] Started OtpProjectApplication in 4.223 seconds (JVM running for 4.812)
+2021-11-16 11:36:18,447 INFO org.apache.juli.logging.DirectJDKLog [https-jsse-nio-9090-exec-9] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-16 11:36:18,447 INFO org.springframework.web.servlet.FrameworkServlet [https-jsse-nio-9090-exec-9] Initializing Servlet 'dispatcherServlet'
+2021-11-16 11:36:18,449 INFO org.springframework.web.servlet.FrameworkServlet [https-jsse-nio-9090-exec-9] Completed initialization in 0 ms
+2021-11-16 11:36:18,478 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-9] Here we go--------->>>>>>>>>>
+2021-11-16 11:40:48,772 INFO org.springframework.boot.StartupInfoLogger [main] Starting OtpProjectApplication using Java 17 on Varun-INT081 with PID 20476 (C:\Users\Varun_Sharma\eclipse-workspace\otp2\target\classes started by Varun_Sharma in C:\Users\Varun_Sharma\eclipse-workspace\otp2)
+2021-11-16 11:40:48,777 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-16 11:40:49,539 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 11:40:49,606 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interfaces.
+2021-11-16 11:40:50,190 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (https)
+2021-11-16 11:40:50,204 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 11:40:50,205 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-11-16 11:40:50,205 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-16 11:40:50,358 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-11-16 11:40:50,359 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1529 ms
+2021-11-16 11:40:50,533 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 11:40:50,579 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 11:40:50,701 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 11:40:50,784 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-16 11:40:50,918 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-16 11:40:50,940 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-11-16 11:40:51,392 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 11:40:51,398 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 11:40:51,809 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 11:40:52,110 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-16 11:40:52,185 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 11:40:52,377 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (https) with context path ''
+2021-11-16 11:40:52,386 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-11-16 11:40:52,400 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-11-16 11:40:52,410 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-11-16 11:40:52,487 INFO org.springframework.boot.StartupInfoLogger [main] Started OtpProjectApplication in 4.06 seconds (JVM running for 4.656)
+2021-11-16 11:41:43,797 INFO org.apache.juli.logging.DirectJDKLog [https-jsse-nio-9090-exec-18] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-16 11:41:43,797 INFO org.springframework.web.servlet.FrameworkServlet [https-jsse-nio-9090-exec-18] Initializing Servlet 'dispatcherServlet'
+2021-11-16 11:41:43,800 INFO org.springframework.web.servlet.FrameworkServlet [https-jsse-nio-9090-exec-18] Completed initialization in 3 ms
+2021-11-16 11:41:44,311 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-30] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,313 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-14] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,314 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-36] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,316 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-35] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,317 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-51] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,319 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-40] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,328 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-15] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,329 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-24] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,334 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-47] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,330 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-32] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,328 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-27] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,337 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-39] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,317 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-31] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,319 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-16] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,337 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-19] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,350 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-20] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,356 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-52] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,337 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-29] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,365 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-7] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,374 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-25] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,385 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-6] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,404 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-43] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,405 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-18] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,421 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-2] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,424 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-12] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,327 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-13] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,322 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-41] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,322 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-37] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,319 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-26] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,319 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-42] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,316 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-50] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,425 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-10] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,315 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-34] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,425 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-1] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,431 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-23] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,434 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-33] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,437 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-5] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,439 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-28] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,439 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-22] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,441 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-11] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,442 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-53] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,443 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-9] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,443 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-46] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,444 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-49] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:44,454 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-4] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:56,253 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-29] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:57,837 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-10] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:58,840 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-3] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:58,844 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-47] Here we go--------->>>>>>>>>>
+2021-11-16 11:41:59,104 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-16] Here we go--------->>>>>>>>>>
+2021-11-16 11:50:33,235 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [otp2.ServiceTest], using SpringBootContextLoader
+2021-11-16 11:50:33,240 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [otp2.ServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-11-16 11:50:33,241 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [otp2.ServiceTest]: ServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-11-16 11:55:47,814 INFO org.springframework.boot.StartupInfoLogger [main] Starting OtpProjectApplication using Java 17 on Varun-INT081 with PID 18764 (C:\Users\Varun_Sharma\eclipse-workspace\otp2\target\classes started by Varun_Sharma in C:\Users\Varun_Sharma\eclipse-workspace\otp2)
+2021-11-16 11:55:47,818 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-16 11:55:48,591 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 11:55:48,645 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+2021-11-16 11:55:49,244 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (https)
+2021-11-16 11:55:49,260 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 11:55:49,261 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-11-16 11:55:49,261 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-16 11:55:49,417 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-11-16 11:55:49,418 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1549 ms
+2021-11-16 11:55:49,615 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 11:55:49,668 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 11:55:49,805 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 11:55:49,889 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-16 11:55:50,034 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-16 11:55:50,068 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-11-16 11:55:50,516 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 11:55:50,525 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 11:55:50,976 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 11:55:51,331 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-16 11:55:51,404 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 11:55:51,601 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (https) with context path ''
+2021-11-16 11:55:51,606 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-11-16 11:55:51,619 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-11-16 11:55:51,625 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-11-16 11:55:51,684 INFO org.springframework.boot.StartupInfoLogger [main] Started OtpProjectApplication in 4.196 seconds (JVM running for 4.776)
+2021-11-16 12:04:40,575 INFO org.springframework.boot.StartupInfoLogger [main] Starting OtpProjectApplication using Java 17 on Varun-INT081 with PID 10584 (C:\Users\Varun_Sharma\eclipse-workspace\otp2\target\classes started by Varun_Sharma in C:\Users\Varun_Sharma\eclipse-workspace\otp2)
+2021-11-16 12:04:40,579 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-16 12:04:41,327 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 12:04:41,398 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interfaces.
+2021-11-16 12:04:42,037 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (https)
+2021-11-16 12:04:42,048 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 12:04:42,049 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-11-16 12:04:42,049 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-16 12:04:42,211 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-11-16 12:04:42,211 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1581 ms
+2021-11-16 12:04:42,395 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 12:04:42,452 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 12:04:42,581 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 12:04:42,660 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-16 12:04:42,816 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-16 12:04:42,840 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-11-16 12:04:43,303 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 12:04:43,310 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 12:04:43,739 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 12:04:44,067 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-16 12:04:44,154 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 12:04:44,159 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9090 is already in use
+2021-11-16 12:04:44,161 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 12:04:44,163 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2021-11-16 12:04:44,170 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2021-11-16 12:04:44,173 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 12:04:44,174 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2021-11-16 12:04:44,178 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 12:04:44,179 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 12:04:44,186 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-16 12:04:44,202 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9090 or configure this application to listen on another port.
+
+2021-11-16 12:04:54,310 INFO org.springframework.boot.StartupInfoLogger [main] Starting OtpProjectApplication using Java 17 on Varun-INT081 with PID 20452 (C:\Users\Varun_Sharma\eclipse-workspace\otp2\target\classes started by Varun_Sharma in C:\Users\Varun_Sharma\eclipse-workspace\otp2)
+2021-11-16 12:04:54,314 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-16 12:04:55,054 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 12:04:55,116 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
+2021-11-16 12:04:55,725 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (https)
+2021-11-16 12:04:55,739 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 12:04:55,739 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-11-16 12:04:55,740 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-16 12:04:55,897 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-11-16 12:04:55,898 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1531 ms
+2021-11-16 12:04:56,108 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 12:04:56,162 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 12:04:56,296 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 12:04:56,391 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-16 12:04:56,536 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-16 12:04:56,561 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-11-16 12:04:56,976 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 12:04:56,982 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 12:04:57,419 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 12:04:57,756 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-16 12:04:57,833 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 12:04:58,024 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (https) with context path ''
+2021-11-16 12:04:58,029 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-11-16 12:04:58,041 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-11-16 12:04:58,047 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-11-16 12:04:58,110 INFO org.springframework.boot.StartupInfoLogger [main] Started OtpProjectApplication in 4.124 seconds (JVM running for 4.724)
+2021-11-16 12:30:15,733 INFO org.apache.juli.logging.DirectJDKLog [https-jsse-nio-9090-exec-9] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-16 12:30:15,734 INFO org.springframework.web.servlet.FrameworkServlet [https-jsse-nio-9090-exec-9] Initializing Servlet 'dispatcherServlet'
+2021-11-16 12:30:15,738 INFO org.springframework.web.servlet.FrameworkServlet [https-jsse-nio-9090-exec-9] Completed initialization in 3 ms
+2021-11-16 12:30:15,815 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-9] Inside the post mapping
+2021-11-16 12:54:09,285 INFO org.springframework.boot.StartupInfoLogger [main] Starting OtpProjectApplication using Java 17 on Varun-INT081 with PID 2084 (C:\Users\Varun_Sharma\eclipse-workspace\otp2\target\classes started by Varun_Sharma in C:\Users\Varun_Sharma\eclipse-workspace\otp2)
+2021-11-16 12:54:09,288 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-16 12:54:10,098 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 12:54:10,159 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+2021-11-16 12:54:10,762 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (https)
+2021-11-16 12:54:10,780 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 12:54:10,780 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-11-16 12:54:10,781 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-16 12:54:10,936 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-11-16 12:54:10,936 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1589 ms
+2021-11-16 12:54:11,122 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 12:54:11,172 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 12:54:11,295 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 12:54:11,387 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-16 12:54:11,528 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-16 12:54:11,560 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-11-16 12:54:12,007 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 12:54:12,014 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 12:54:12,514 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 12:54:12,856 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-16 12:54:12,938 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 12:54:12,944 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9090 is already in use
+2021-11-16 12:54:12,947 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 12:54:12,949 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2021-11-16 12:54:12,960 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2021-11-16 12:54:12,962 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 12:54:12,962 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2021-11-16 12:54:12,967 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 12:54:12,968 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 12:54:12,975 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-16 12:54:12,993 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9090 or configure this application to listen on another port.
+
+2021-11-16 12:54:22,583 INFO org.springframework.boot.StartupInfoLogger [main] Starting OtpProjectApplication using Java 17 on Varun-INT081 with PID 8056 (C:\Users\Varun_Sharma\eclipse-workspace\otp2\target\classes started by Varun_Sharma in C:\Users\Varun_Sharma\eclipse-workspace\otp2)
+2021-11-16 12:54:22,585 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-16 12:54:23,373 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 12:54:23,440 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interfaces.
+2021-11-16 12:54:24,013 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (https)
+2021-11-16 12:54:24,024 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 12:54:24,024 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-11-16 12:54:24,024 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-16 12:54:24,180 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-11-16 12:54:24,180 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1541 ms
+2021-11-16 12:54:24,339 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 12:54:24,381 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 12:54:24,509 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 12:54:24,595 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-16 12:54:24,738 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-16 12:54:24,763 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-11-16 12:54:25,193 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 12:54:25,200 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 12:54:25,628 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 12:54:25,947 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-16 12:54:26,029 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 12:54:26,224 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (https) with context path ''
+2021-11-16 12:54:26,232 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-11-16 12:54:26,246 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-11-16 12:54:26,251 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-11-16 12:54:26,323 INFO org.springframework.boot.StartupInfoLogger [main] Started OtpProjectApplication in 4.071 seconds (JVM running for 4.633)
+2021-11-16 13:21:12,645 INFO org.springframework.boot.StartupInfoLogger [main] Starting OtpProjectApplication using Java 17 on Varun-INT081 with PID 14784 (C:\Users\Varun_Sharma\eclipse-workspace\otp2\target\classes started by Varun_Sharma in C:\Users\Varun_Sharma\eclipse-workspace\otp2)
+2021-11-16 13:21:12,648 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-16 13:21:13,403 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 13:21:13,471 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interfaces.
+2021-11-16 13:21:14,080 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (https)
+2021-11-16 13:21:14,096 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 13:21:14,097 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-11-16 13:21:14,098 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-16 13:21:14,252 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-11-16 13:21:14,252 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1547 ms
+2021-11-16 13:21:14,447 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 13:21:14,495 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 13:21:14,628 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 13:21:14,715 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-16 13:21:14,862 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-16 13:21:14,891 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-11-16 13:21:15,349 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 13:21:15,356 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 13:21:15,792 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 13:21:16,125 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-16 13:21:16,211 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 13:21:16,215 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9090 is already in use
+2021-11-16 13:21:16,218 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 13:21:16,220 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2021-11-16 13:21:16,228 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2021-11-16 13:21:16,230 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 13:21:16,230 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2021-11-16 13:21:16,235 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 13:21:16,236 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 13:21:16,244 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-16 13:21:16,260 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9090 or configure this application to listen on another port.
+
+2021-11-16 13:21:28,696 INFO org.springframework.boot.StartupInfoLogger [main] Starting OtpProjectApplication using Java 17 on Varun-INT081 with PID 5904 (C:\Users\Varun_Sharma\eclipse-workspace\otp2\target\classes started by Varun_Sharma in C:\Users\Varun_Sharma\eclipse-workspace\otp2)
+2021-11-16 13:21:28,702 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-16 13:21:29,407 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 13:21:29,474 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interfaces.
+2021-11-16 13:21:30,048 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (https)
+2021-11-16 13:21:30,059 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 13:21:30,059 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-11-16 13:21:30,060 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-16 13:21:30,216 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-11-16 13:21:30,216 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1469 ms
+2021-11-16 13:21:30,397 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 13:21:30,443 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 13:21:30,568 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 13:21:30,656 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-16 13:21:30,802 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-16 13:21:30,828 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-11-16 13:21:31,293 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 13:21:31,299 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 13:21:31,715 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 13:21:32,042 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-16 13:21:32,113 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 13:21:32,323 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (https) with context path ''
+2021-11-16 13:21:32,329 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-11-16 13:21:32,345 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-11-16 13:21:32,350 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-11-16 13:21:32,403 INFO org.springframework.boot.StartupInfoLogger [main] Started OtpProjectApplication in 4.061 seconds (JVM running for 4.641)
+2021-11-16 13:22:56,828 INFO org.springframework.boot.StartupInfoLogger [main] Starting OtpProjectApplication using Java 17 on Varun-INT081 with PID 18240 (C:\Users\Varun_Sharma\eclipse-workspace\otp2\target\classes started by Varun_Sharma in C:\Users\Varun_Sharma\eclipse-workspace\otp2)
+2021-11-16 13:22:56,832 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-16 13:22:57,557 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 13:22:57,619 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+2021-11-16 13:22:58,193 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (https)
+2021-11-16 13:22:58,212 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 13:22:58,212 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-11-16 13:22:58,212 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-16 13:22:58,379 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-11-16 13:22:58,380 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1498 ms
+2021-11-16 13:22:58,537 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 13:22:58,580 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 13:22:58,701 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 13:22:58,784 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-16 13:22:58,933 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-16 13:22:58,966 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-11-16 13:22:59,469 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 13:22:59,479 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 13:22:59,905 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 13:23:00,225 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-16 13:23:00,300 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 13:23:00,490 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (https) with context path ''
+2021-11-16 13:23:00,497 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-11-16 13:23:00,508 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-11-16 13:23:00,515 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-11-16 13:23:00,575 INFO org.springframework.boot.StartupInfoLogger [main] Started OtpProjectApplication in 4.079 seconds (JVM running for 4.665)
+2021-11-16 13:27:42,449 INFO org.springframework.boot.StartupInfoLogger [main] Starting OtpProjectApplication using Java 17 on Varun-INT081 with PID 9084 (C:\Users\Varun_Sharma\eclipse-workspace\otp2\target\classes started by Varun_Sharma in C:\Users\Varun_Sharma\eclipse-workspace\otp2)
+2021-11-16 13:27:42,453 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-16 13:27:43,249 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 13:27:43,305 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.
+2021-11-16 13:27:43,922 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (https)
+2021-11-16 13:27:43,938 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 13:27:43,940 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-11-16 13:27:43,941 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-16 13:27:44,092 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-11-16 13:27:44,094 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1589 ms
+2021-11-16 13:27:44,280 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 13:27:44,338 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 13:27:44,468 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 13:27:44,562 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-16 13:27:44,721 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-16 13:27:44,747 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-11-16 13:27:45,178 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 13:27:45,185 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 13:27:45,623 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 13:27:45,988 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-16 13:27:46,085 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 13:27:46,092 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9090 is already in use
+2021-11-16 13:27:46,095 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 13:27:46,097 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2021-11-16 13:27:46,108 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2021-11-16 13:27:46,112 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 13:27:46,112 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2021-11-16 13:27:46,117 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 13:27:46,118 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 13:27:46,127 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-16 13:27:46,143 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9090 or configure this application to listen on another port.
+
+2021-11-16 13:27:58,189 INFO org.springframework.boot.StartupInfoLogger [main] Starting OtpProjectApplication using Java 17 on Varun-INT081 with PID 4292 (C:\Users\Varun_Sharma\eclipse-workspace\otp2\target\classes started by Varun_Sharma in C:\Users\Varun_Sharma\eclipse-workspace\otp2)
+2021-11-16 13:27:58,194 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-16 13:27:58,974 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 13:27:59,034 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2021-11-16 13:27:59,651 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (https)
+2021-11-16 13:27:59,668 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 13:27:59,669 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-11-16 13:27:59,669 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-16 13:27:59,839 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-11-16 13:27:59,840 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1595 ms
+2021-11-16 13:28:00,031 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 13:28:00,077 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 13:28:00,229 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 13:28:00,342 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-16 13:28:00,516 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-16 13:28:00,547 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-11-16 13:28:01,008 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 13:28:01,015 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 13:28:01,480 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 13:28:01,815 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-16 13:28:01,888 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 13:28:02,113 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (https) with context path ''
+2021-11-16 13:28:02,121 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-11-16 13:28:02,138 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-11-16 13:28:02,145 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-11-16 13:28:02,232 INFO org.springframework.boot.StartupInfoLogger [main] Started OtpProjectApplication in 4.389 seconds (JVM running for 4.98)
+2021-11-16 13:29:36,456 INFO org.springframework.boot.StartupInfoLogger [main] Starting OtpProjectApplication using Java 17 on Varun-INT081 with PID 10808 (C:\Users\Varun_Sharma\eclipse-workspace\otp2\target\classes started by Varun_Sharma in C:\Users\Varun_Sharma\eclipse-workspace\otp2)
+2021-11-16 13:29:36,461 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-16 13:29:37,255 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 13:29:37,310 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+2021-11-16 13:29:37,928 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (https)
+2021-11-16 13:29:37,941 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 13:29:37,941 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-11-16 13:29:37,942 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-16 13:29:38,102 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-11-16 13:29:38,103 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1583 ms
+2021-11-16 13:29:38,305 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 13:29:38,361 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 13:29:38,488 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 13:29:38,574 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-16 13:29:38,715 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-16 13:29:38,749 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-11-16 13:29:39,200 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 13:29:39,208 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 13:29:39,610 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 13:29:40,018 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-16 13:29:40,131 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 13:29:40,412 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (https) with context path ''
+2021-11-16 13:29:40,421 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-11-16 13:29:40,439 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-11-16 13:29:40,449 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-11-16 13:29:40,539 INFO org.springframework.boot.StartupInfoLogger [main] Started OtpProjectApplication in 4.496 seconds (JVM running for 5.117)
+2021-11-16 13:32:16,109 INFO org.apache.juli.logging.DirectJDKLog [https-jsse-nio-9090-exec-9] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-16 13:32:16,110 INFO org.springframework.web.servlet.FrameworkServlet [https-jsse-nio-9090-exec-9] Initializing Servlet 'dispatcherServlet'
+2021-11-16 13:32:16,113 INFO org.springframework.web.servlet.FrameworkServlet [https-jsse-nio-9090-exec-9] Completed initialization in 2 ms
+2021-11-16 13:32:16,188 INFO com.varun.otpproject.controller.ControllerClass [https-jsse-nio-9090-exec-9] Inside the post mapping
+2021-11-16 13:32:21,993 INFO com.varun.otpproject.service.ServiceClass [https-jsse-nio-9090-exec-9] Sending mail to the user :)
+2021-11-16 14:38:41,038 INFO org.springframework.boot.StartupInfoLogger [main] Starting OtpProjectApplication using Java 17 on Varun-INT081 with PID 1720 (C:\Users\Varun_Sharma\eclipse-workspace\otp2\target\classes started by Varun_Sharma in C:\Users\Varun_Sharma\eclipse-workspace\otp2)
+2021-11-16 14:38:41,041 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-16 14:38:41,837 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 14:38:41,914 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interfaces.
+2021-11-16 14:38:42,532 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (https)
+2021-11-16 14:38:42,556 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 14:38:42,556 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-11-16 14:38:42,557 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-16 14:38:42,712 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-11-16 14:38:42,712 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1609 ms
+2021-11-16 14:38:42,886 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 14:38:42,928 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 14:38:43,053 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 14:38:43,155 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-16 14:38:43,302 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-16 14:38:43,329 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-11-16 14:38:43,782 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 14:38:43,791 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 14:38:44,188 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 14:38:44,510 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-16 14:38:44,584 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["https-jsse-nio-9090"]
+2021-11-16 14:38:44,788 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (https) with context path ''
+2021-11-16 14:38:44,794 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-11-16 14:38:44,809 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-11-16 14:38:44,815 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-11-16 14:38:44,888 INFO org.springframework.boot.StartupInfoLogger [main] Started OtpProjectApplication in 4.193 seconds (JVM running for 4.801)
+2021-11-16 14:52:53,875 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.varun.otpproject.service.ServiceTest], using SpringBootContextLoader
+2021-11-16 14:52:53,882 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.varun.otpproject.service.ServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-11-16 14:52:53,883 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.varun.otpproject.service.ServiceTest]: ServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-11-16 14:52:53,995 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.varun.otpproject.OtpProjectApplication for test class com.varun.otpproject.service.ServiceTest
+2021-11-16 14:52:54,099 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2021-11-16 14:52:54,121 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@d5ae57e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@68759011, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7e242b4d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@305f031, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@592e843a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1d1f7216, org.springframework.test.context.transaction.TransactionalTestExecutionListener@423e4cbb, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6e16b8b5, org.springframework.test.context.event.EventPublishingTestExecutionListener@43b4fe19, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@25ddbbbb, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@1536602f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4ebea12c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2a1edad4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6256ac4f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@44c79f32, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7fcbe147, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@235f4c10]
+2021-11-16 14:52:54,422 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServiceTest using Java 17 on Varun-INT081 with PID 3040 (started by Varun_Sharma in C:\Users\Varun_Sharma\eclipse-workspace\otp2)
+2021-11-16 14:52:54,424 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-16 14:52:55,144 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 14:52:55,200 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2021-11-16 14:52:55,786 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 14:52:55,836 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 14:52:55,972 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 14:52:56,137 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-16 14:52:56,328 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-16 14:52:56,353 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-11-16 14:52:56,839 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 14:52:56,847 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 14:52:57,462 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 14:52:58,285 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-16 14:52:58,479 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-11-16 14:52:58,510 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-11-16 14:52:58,519 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-11-16 14:52:58,593 INFO org.springframework.boot.StartupInfoLogger [main] Started ServiceTest in 4.424 seconds (JVM running for 5.54)
+2021-11-16 14:53:04,323 INFO com.varun.otpproject.service.ServiceClass [main] Sending mail to the user :)
+2021-11-16 14:53:04,351 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 14:53:04,353 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-11-16 14:53:04,361 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2021-11-16 14:53:44,445 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.varun.otpproject.service.ServiceTest], using SpringBootContextLoader
+2021-11-16 14:53:44,452 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.varun.otpproject.service.ServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-11-16 14:53:44,453 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.varun.otpproject.service.ServiceTest]: ServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-11-16 14:53:44,568 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.varun.otpproject.OtpProjectApplication for test class com.varun.otpproject.service.ServiceTest
+2021-11-16 14:53:44,672 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2021-11-16 14:53:44,699 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@68759011, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7e242b4d, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@305f031, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@592e843a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1d1f7216, org.springframework.test.context.support.DirtiesContextTestExecutionListener@423e4cbb, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6e16b8b5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@43b4fe19, org.springframework.test.context.event.EventPublishingTestExecutionListener@25ddbbbb, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@1536602f, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@4ebea12c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2a1edad4, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6256ac4f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@44c79f32, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7fcbe147, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@235f4c10, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@743cb8e0]
+2021-11-16 14:53:44,975 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServiceTest using Java 17 on Varun-INT081 with PID 7056 (started by Varun_Sharma in C:\Users\Varun_Sharma\eclipse-workspace\otp2)
+2021-11-16 14:53:44,976 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-16 14:53:45,745 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 14:53:45,804 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
+2021-11-16 14:53:46,428 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 14:53:46,475 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 14:53:46,607 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 14:53:46,759 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-16 14:53:46,947 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-16 14:53:46,977 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-11-16 14:53:47,461 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 14:53:47,468 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 14:53:48,083 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 14:53:48,849 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-16 14:53:49,051 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-11-16 14:53:49,070 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-11-16 14:53:49,079 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-11-16 14:53:49,169 INFO org.springframework.boot.StartupInfoLogger [main] Started ServiceTest in 4.417 seconds (JVM running for 5.565)
+2021-11-16 14:53:54,231 INFO com.varun.otpproject.service.ServiceClass [main] Sending mail to the user :)
+2021-11-16 14:53:58,940 INFO com.varun.otpproject.service.ServiceClass [main] Sending mail to the user :)
+2021-11-16 14:53:58,957 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 14:53:58,960 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-11-16 14:53:58,972 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2021-11-16 15:18:09,000 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.varun.otpproject.service.ServiceTest], using SpringBootContextLoader
+2021-11-16 15:18:09,010 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.varun.otpproject.service.ServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-11-16 15:18:09,011 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.varun.otpproject.service.ServiceTest]: ServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-11-16 15:18:09,143 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.varun.otpproject.OtpProjectApplication for test class com.varun.otpproject.service.ServiceTest
+2021-11-16 15:18:09,277 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2021-11-16 15:18:09,313 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7e242b4d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@305f031, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@592e843a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1d1f7216, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@423e4cbb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6e16b8b5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@43b4fe19, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@25ddbbbb, org.springframework.test.context.event.EventPublishingTestExecutionListener@1536602f, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@4ebea12c, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@2a1edad4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6256ac4f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@44c79f32, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7fcbe147, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@235f4c10, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@743cb8e0, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@c7a975a]
+2021-11-16 15:18:09,701 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServiceTest using Java 17 on Varun-INT081 with PID 7716 (started by Varun_Sharma in C:\Users\Varun_Sharma\eclipse-workspace\otp2)
+2021-11-16 15:18:09,705 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-16 15:18:10,842 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 15:18:10,927 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interfaces.
+2021-11-16 15:18:11,673 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 15:18:11,789 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 15:18:12,024 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 15:18:12,232 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-16 15:18:12,481 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-16 15:18:12,526 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-11-16 15:18:13,340 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 15:18:13,350 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 15:18:14,313 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 15:18:15,364 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-16 15:18:15,667 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-11-16 15:18:15,691 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-11-16 15:18:15,700 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-11-16 15:18:15,811 INFO org.springframework.boot.StartupInfoLogger [main] Started ServiceTest in 6.426 seconds (JVM running for 8.401)
+2021-11-16 15:18:24,260 INFO com.varun.otpproject.service.ServiceClass [main] Sending mail to the user :)
+2021-11-16 15:18:24,296 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 15:18:24,299 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-11-16 15:18:24,315 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2021-11-16 15:19:02,150 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.varun.otpproject.service.ServiceTest], using SpringBootContextLoader
+2021-11-16 15:19:02,158 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.varun.otpproject.service.ServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-11-16 15:19:02,158 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.varun.otpproject.service.ServiceTest]: ServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-11-16 15:19:02,335 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.varun.otpproject.OtpProjectApplication for test class com.varun.otpproject.service.ServiceTest
+2021-11-16 15:19:02,483 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2021-11-16 15:19:02,516 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@68759011, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7e242b4d, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@305f031, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@592e843a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1d1f7216, org.springframework.test.context.support.DirtiesContextTestExecutionListener@423e4cbb, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6e16b8b5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@43b4fe19, org.springframework.test.context.event.EventPublishingTestExecutionListener@25ddbbbb, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@1536602f, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@4ebea12c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2a1edad4, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6256ac4f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@44c79f32, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7fcbe147, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@235f4c10, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@743cb8e0]
+2021-11-16 15:19:02,901 INFO org.springframework.boot.StartupInfoLogger [main] Starting ServiceTest using Java 17 on Varun-INT081 with PID 9344 (started by Varun_Sharma in C:\Users\Varun_Sharma\eclipse-workspace\otp2)
+2021-11-16 15:19:02,903 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-11-16 15:19:04,083 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-16 15:19:04,171 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 78 ms. Found 1 JPA repository interfaces.
+2021-11-16 15:19:04,973 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-16 15:19:05,040 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-16 15:19:05,220 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-16 15:19:05,426 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-11-16 15:19:05,640 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-11-16 15:19:05,672 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-11-16 15:19:06,379 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-16 15:19:06,389 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 15:19:07,205 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-16 15:19:08,302 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-16 15:19:08,702 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-11-16 15:19:08,736 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-11-16 15:19:08,749 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-11-16 15:19:08,883 INFO org.springframework.boot.StartupInfoLogger [main] Started ServiceTest in 6.26 seconds (JVM running for 7.823)
+2021-11-16 15:19:15,688 INFO com.varun.otpproject.service.ServiceClass [main] Sending mail to the user :)
+2021-11-16 15:19:20,887 INFO com.varun.otpproject.service.ServiceClass [main] Sending mail to the user :)
+2021-11-16 15:19:20,899 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-16 15:19:20,905 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-11-16 15:19:20,923 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
